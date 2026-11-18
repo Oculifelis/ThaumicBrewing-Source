@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:lux"
+    },
+    {
+      "amount": 1,
+      "aspect": "thaumaturge:alkimia"
+    }
+  ],
+  "catalyst": {
+    "type": "neoforge:components",
+    "items": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:fire_resistance"
+      }
+    }
+  },
+  "research": {
+    "entry": "thaumaturgicbrewing:long_basic_potions"
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:long_fire_resistance"
+      }
+    }
+  }
+}

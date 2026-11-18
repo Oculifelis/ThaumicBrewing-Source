@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:victus"
+    },
+    {
+      "amount": 1,
+      "aspect": "thaumaturge:alkimia"
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    }
+  },
+  "research": {
+    "entry": "thaumaturgicbrewing:basic_potions"
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:healing"
+      }
+    }
+  }
+}

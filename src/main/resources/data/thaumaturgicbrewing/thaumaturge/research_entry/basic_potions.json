@@ -1,0 +1,110 @@
+{
+  "category": "thaumaturgicbrewing:brewing",
+  "name": "research.thaumaturgicbrewing.basic_potions.title",
+  "parents": [
+    "thaumaturgicbrewing:base"
+  ],
+  "column": 2,
+  "row": 0,
+  "icons": [
+    "minecraft:potion"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbrewing.basic_potions.stage_0",
+      "obtain": [
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:night_vision"
+            }
+          },
+          "amount": 1
+        },
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:fire_resistance"
+            }
+          },
+          "amount": 1
+        },
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:swiftness"
+            }
+          },
+          "amount": 1
+        },
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:water_breathing"
+            }
+          },
+          "amount": 1
+        },
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:healing"
+            }
+          },
+          "amount": 1
+        },
+        {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:strength"
+            }
+          },
+          "amount": 1
+        }
+      ],
+      "required_research": [
+        "thaumaturge:scanned/aspect/thaumaturge/alkimia"
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbrewing.basic_potions.stage_1",
+      "recipes": [
+        "thaumaturgicbrewing:crucible/night_vision_potion",
+        "thaumaturgicbrewing:crucible/fire_resistance_potion",
+        "thaumaturgicbrewing:crucible/swiftness_potion",
+        "thaumaturgicbrewing:crucible/water_breathing_potion",
+        "thaumaturgicbrewing:crucible/healing_potion",
+        "thaumaturgicbrewing:crucible/strength_potion"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 3
+    }
+  ],
+  "complexity": 1
+}

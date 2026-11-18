@@ -1,0 +1,42 @@
+[
+ {
+  "id": "A",
+  "label": "A: Rainbow drop",
+  "desc": "One big drop striped in the six potion colours, falling toward the rainbow brew."
+ },
+ {
+  "id": "B",
+  "label": "B: Layered rainbow flask",
+  "desc": "A round corked flask holding the brew in six clean colour layers."
+ },
+ {
+  "id": "C",
+  "label": "C: Rainbow cauldron swirl",
+  "desc": "An iron cauldron whose brew swirls in rainbow colours, coloured bubbles rising."
+ },
+ {
+  "id": "D",
+  "label": "D: Rainbow bubbles",
+  "desc": "Bubbles of every potion colour rising off the brew, one big shimmering bubble in front."
+ },
+ {
+  "id": "E",
+  "label": "E: Pouring a rainbow",
+  "desc": "A tipped vial pours the brew out as one stream in all six colours."
+ },
+ {
+  "id": "F",
+  "label": "F: Spiral seen from above",
+  "desc": "Looking down into a cauldron where the brew turns in a rainbow spiral round a bright centre."
+ },
+ {
+  "id": "G",
+  "label": "G: Flask with rainbow vapour",
+  "desc": "A conical flask of rainbow brew giving off a curling ribbon of rainbow vapour."
+ },
+ {
+  "id": "H",
+  "label": "H: Ring of six drops",
+  "desc": "Six drops, one in each potion colour, in a ring round a bright spark."
+ }
+]

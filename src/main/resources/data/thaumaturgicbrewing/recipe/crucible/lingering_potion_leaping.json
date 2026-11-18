@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:spiritus"
+    },
+    {
+      "amount": 1,
+      "aspect": "thaumaturge:alkimia"
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:leaping"
+      }
+    }
+  },
+  "research": {
+    "entry": "thaumaturgicbrewing:lingering_potions"
+  },
+  "result": {
+    "id": "minecraft:lingering_potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:leaping"
+      }
+    }
+  }
+}
