@@ -11,7 +11,7 @@
     }
   ],
   "catalyst": {
-    "neoforge:ingredient_type": "neoforge:components",
+    "type": "neoforge:components",
     "items": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {

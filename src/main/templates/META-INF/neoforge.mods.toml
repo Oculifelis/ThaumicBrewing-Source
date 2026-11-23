@@ -9,7 +9,7 @@ displayName="${mod_name}"
 authors="Michael Bunting (original Thaumic Brewing), Oculifelis (port to Thaumaturge)"
 credits="Original Thaumic Brewing (Thaumcraft 6, 1.12.2) by Michael Bunting (daedalus4096), MIT. Thaumaturge by Leclowndu93150 and contributors."
 description='''
-Thaumaturgic Brewing: a port of Thaumic Brewing (Thaumcraft 6 addon) to Thaumaturge on NeoForge 26.1.2: brew every potion in the crucible
+Thaumaturgic Brewing: a port of Thaumic Brewing (Thaumcraft 6 addon) to Thaumaturge on NeoForge 1.21.1: brew every potion in the crucible
 from essentia, vanilla and modded, then strengthen, extend or make it splash or linger. See docs/COVERAGE.md.
 '''
 
@@ -19,7 +19,7 @@ config="thaumaturgicbrewing.mixins.json"
 [[dependencies.${mod_id}]]
     modId="neoforge"
     type="required"
-    versionRange="[26.1.2.71,)"
+    versionRange="[${neo_version},)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.${mod_id}]]

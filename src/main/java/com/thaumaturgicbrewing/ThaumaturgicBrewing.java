@@ -3,7 +3,6 @@ package com.thaumaturgicbrewing;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.neoforge.common.NeoForge;
 
 /**
  * Thaumaturgic Brewing: Thaumic Brewing (Michael Bunting, Thaumcraft 6), rebuilt on Thaumaturge: potions brewed in the crucible from essentia.
@@ -16,6 +15,5 @@ public final class ThaumaturgicBrewing {
 
     public ThaumaturgicBrewing(ModContainer container) {
         container.registerConfig(ModConfig.Type.COMMON, BrewingConfig.SPEC);
-        NeoForge.EVENT_BUS.addListener(BrewingRecipeHook::onModifyRecipeJsons);
     }
 }

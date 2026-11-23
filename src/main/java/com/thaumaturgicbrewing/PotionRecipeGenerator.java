@@ -154,7 +154,7 @@ public final class PotionRecipeGenerator {
         }
         ingredients.sort(Comparator.comparing(s -> String.valueOf(BuiltInRegistries.ITEM.getKey(s.getItem()))));
 
-        List<Holder.Reference<Potion>> potions = new ArrayList<>(BuiltInRegistries.POTION.listElements().toList());
+        List<Holder.Reference<Potion>> potions = new ArrayList<>(BuiltInRegistries.POTION.holders().toList());
         potions.sort(Comparator.comparing(Holder::getRegisteredName));
         // Base brews (water, awkward, mundane...) first, so a potion is made from water when it can be.
         List<Holder.Reference<Potion>> sources = new ArrayList<>(potions);
